@@ -193,7 +193,7 @@ export default function Home() {
           <div className="flex items-start justify-between mb-4 gap-2">
             <div>
               <h2 className="font-bold text-lg text-white leading-tight">
-                {statusInfo?.title ?? title || "スクリム結果"}
+                {(statusInfo?.title ?? title) || "スクリム結果"}
               </h2>
               <p className="text-gray-600 text-xs mt-0.5">
                 {rankings.length}チーム
